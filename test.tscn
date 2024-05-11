@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfn0on7agdq2s"]
+
+[ext_resource type="Texture2D" uid="uid://c26bbbjplnsyu" path="res://icon.svg" id="1_c84hj"]
+
+[node name="test" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(522, 233)
+texture = ExtResource("1_c84hj")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 454.0
+offset_top = 112.0
+offset_right = 595.0
+offset_bottom = 135.0
+text = "Quike la chupa XD"
