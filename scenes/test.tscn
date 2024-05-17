@@ -1,12 +1,12 @@
 [gd_scene load_steps=2 format=3 uid="uid://cfn0on7agdq2s"]
 
-[ext_resource type="Texture2D" uid="uid://c26bbbjplnsyu" path="res://icon.svg" id="1_c84hj"]
+[ext_resource type="Texture2D" uid="uid://c26bbbjplnsyu" path="res://img/icon.svg" id="1_08sml"]
 
 [node name="test" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(522, 233)
-texture = ExtResource("1_c84hj")
+texture = ExtResource("1_08sml")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 454.0

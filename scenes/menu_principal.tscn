@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bsafhg85gtixk"]
+[gd_scene load_steps=3 format=3 uid="uid://bsafhg85gtixk"]
 
-[ext_resource type="Script" path="res://Menu_principal.gd" id="1_cth2f"]
+[ext_resource type="Script" path="res://Menu_principal.gd" id="1_66p25"]
+[ext_resource type="Texture2D" uid="uid://btpuxd0tk85ot" path="res://img/Fondo_temporal.jpg" id="2_6kdaw"]
 
 [node name="Menu_principal" type="Control"]
 layout_mode = 3
@@ -9,7 +10,40 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_cth2f")
+script = ExtResource("1_66p25")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = 578.0
+offset_bottom = 325.0
+texture = ExtResource("2_6kdaw")
+expand_mode = 2
+
+[node name="titulo" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -163.0
+offset_top = -300.0
+offset_right = 168.0
+offset_bottom = -231.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "Amor Aguado"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
